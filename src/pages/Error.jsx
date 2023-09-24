@@ -1,18 +1,15 @@
+import image from "../assets/img/doguito404.svg";
+import "../assets/css/404.css";
+
 const Error = () => {
 	return (
-		<h1
-			style={{
-				display: "flex",
-				justifyContent: "center",
-				alignItems: "center",
-				minHeight: "100vh",
-				color: "#FFF",
-				backgroundColor: "#252526",
-				fontSize: "30px",
-			}}
-		>
-			404: Better luck next time.
-		</h1>
+		<main className="container flex flex--center flex--column main-404">
+			<img className="dog-image" src={image} alt="Doguito" />
+			<p className="notfound-text">Sorry this page doesn't exist</p>
+			<a className="notfound-text" href="http://localhost:3000">
+				Go back Home
+			</a>
+		</main>
 	);
 };
 
