@@ -6,7 +6,7 @@ const Error = () => {
 		<main className="container flex flex--center flex--column main-404">
 			<img className="dog-image" src={image} alt="Doguito" />
 			<p className="notfound-text">Sorry this page doesn't exist</p>
-			<a className="notfound-text" href="http://localhost:3000">
+			<a className="notfound-text" href="/">
 				Go back Home
 			</a>
 		</main>
