@@ -17,7 +17,13 @@
 	text-decoration: underline;
 }
 .main-404 {
-	height: 100vh;
+	height: calc(100vh - 4.75rem);
 	background-color: #252526;
 	color: #dddddd;
+}
+
+@media (min-width: 900px) {
+	.main-404 {
+		height: calc(100vh - 6.75rem);
+	}
 }
