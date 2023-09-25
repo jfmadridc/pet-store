@@ -18,6 +18,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/sobre" element={<Sobre />} />
 				<Route path="/posts/:id" element={<Post />} />
+				<Route path="/categoria/:id" />
 				<Route path="*" element={<Error />} />
 			</Routes>
 		</Router>
