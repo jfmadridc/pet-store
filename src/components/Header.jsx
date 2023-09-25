@@ -16,17 +16,17 @@ const Header = () => {
 			<nav className="menu-header">
 				<ul className="menu-items">
 					<li>
-						<Link className="menu-item menu-item--entrar" to="#">
+						<Link className="menu-item menu-item--entrar" to="404">
 							Entrar
 						</Link>
 					</li>
 					<li>
-						<Link className="menu-item" to="#">
+						<Link className="menu-item" to="404">
 							Productos
 						</Link>
 					</li>
 					<li>
-						<Link className="menu-item" to="/">
+						<Link className="menu-item" to="404">
 							Blog
 						</Link>
 					</li>
