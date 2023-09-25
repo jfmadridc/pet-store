@@ -1,5 +1,5 @@
 import "../assets/css/blog.css";
-import ListCategories from "../components/ListCategoires";
+import ListCategories from "../components/ListCategories";
 import ListPosts from "../components/ListPosts";
 import { useParams } from "react-router-dom";
 
