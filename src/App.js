@@ -5,6 +5,7 @@ import Sobre from "./pages/Sobre";
 import Error from "./pages/Error";
 import Header from "./components/Header";
 import Post from "./pages/Post";
+import Categoria from "./components/Categoria";
 
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
@@ -18,7 +19,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/sobre" element={<Sobre />} />
 				<Route path="/posts/:id" element={<Post />} />
-				<Route path="/categoria/:id" />
+				<Route path="/categoria/:id" element={<Categoria />} />
 				<Route path="*" element={<Error />} />
 			</Routes>
 		</Router>
