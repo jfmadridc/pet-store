@@ -1,6 +1,7 @@
 import "../assets/css/blog.css";
 import ListCategories from "../components/ListCategories";
 import ListPosts from "../components/ListPosts";
+import SubCategoria from "./SubCategoria";
 import { buscar } from "../api/api";
 import { useParams, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -40,6 +41,7 @@ const Categoria = () => {
 
 			<Routes>
 				<Route path="/" element={<ListPosts url={`/posts?categoria=${id}`} />} />
+				<Route path="/:subcategoria" element={<SubCategoria />} />
 			</Routes>
 		</>
 	);
